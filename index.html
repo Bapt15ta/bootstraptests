@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
       $(document).ready(function() {
-         $("#target").addClass("animated fadeOut");
+         $("#target").addClass("animated hinge");
       });
     </script>
     <style>
@@ -30,8 +30,8 @@
       <img class="responsive" src="https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
 
       <div class="row">
-        <div class="col-xs-4">
-          <button class="btn btn-primary btn-block" id="target"><i class="fas fa-surprise"></i>Is this a button?</button>
+        <div class="col-xs-4" id="target">
+          <button class="btn btn-primary btn-block"><i class="fas fa-surprise"></i>Is this a button?</button>
         </div>
         <div class="col-xs-4">
           <button class="btn btn-info btn-block"><i class="far fa-surprise"></i>Another button?</button>
